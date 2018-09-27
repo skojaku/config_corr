@@ -1,0 +1,20 @@
+language: python
+
+matrix:
+    include:
+        - os: linux
+          sudo: required
+          python: 3.4
+        - os: linux
+          sudo: required
+          python: 3.5
+        - os: linux
+          sudo: required
+          python: 3.6
+
+install: 
+   - pip install --index-url https://test.pypi.org/simple/ configcorr  
+
+# command to run tests
+script:
+  - cd python && python test.py
