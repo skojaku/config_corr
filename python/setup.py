@@ -21,5 +21,5 @@ setup(
     ],
     keywords='correlation matrix configuration model network',
     packages=find_packages(),
-    install_requires=['numpy', 'cvxpy', 'ecos>=2.0'],
+    install_requires=['numpy', 'ecos>=2.0', 'cvxpy'],
 )
