@@ -1,9 +1,0 @@
-setup.py
-configcorr/__init__.py
-configcorr/max_ent_config_dmcc.py
-configcorr/max_ent_config_naive_gradient_descent.py
-configcorr.egg-info/PKG-INFO
-configcorr.egg-info/SOURCES.txt
-configcorr.egg-info/dependency_links.txt
-configcorr.egg-info/requires.txt
-configcorr.egg-info/top_level.txt

@@ -1,3 +1,0 @@
-numpy
-ecos==2.0.5
-cvxpy==1.0.8
