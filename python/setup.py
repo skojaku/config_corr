@@ -3,7 +3,7 @@ from codecs import open
 
 setup(
     name='configcorr',
-    version='0.0.2',
+    version='0.0.3',
     description='Python code for configuration model for correlation/covariance matrices',
     long_description='Python code for configuration model for correlation/covariance matrices',
     url='https://github.com/naokimas/config_corr',
@@ -21,5 +21,5 @@ setup(
     ],
     keywords='correlation matrix configuration model network',
     packages=find_packages(),
-    install_requires=['numpy', 'ecos>=2.0', 'cvxpy'],
+    install_requires=['numpy', 'ecos==2.0.5', 'cvxpy==1.0.8'],
 )
